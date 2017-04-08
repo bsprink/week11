@@ -1,0 +1,28 @@
+#container{
+	width: 350px;
+	height:600px;
+	background-color: #ccc;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/weatherImage.jpg"); 
+	background-position: center;
+}
+#title{
+	text-align: center;
+	font-family: ;
+	font-size:50px;
+	color: orange;	
+}
+#zipInput{
+	text-align: center;	
+}
+#button{
+	width: 135px;
+	height:25px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #ccc;
+	display: inline-block;
+	margin-left: 105px;
+}
