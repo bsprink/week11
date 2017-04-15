@@ -1,18 +1,26 @@
 #container{
 	width: 350px;
 	height:600px;
-	background-color: #ccc;
+	background-color: #00a2aa;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url("../images/weatherImage.jpg"); 
+	background-size: contain;
+	background-repeat: no-repeat;
 	background-position: center;
+	
 }
 #title{
+	font-family: 'Shrikhand', cursive;
 	text-align: center;
-	font-family: ;
 	font-size:50px;
 	color: orange;	
+}
+#appInfo{
+	text-align: center;
+	color:white;
+	font-family: sans-serif;
 }
 #zipInput{
 	text-align: center;	
@@ -25,4 +33,13 @@
 	background-color: #ccc;
 	display: inline-block;
 	margin-left: 105px;
+	position: absolute;
+}
+#tempDisplay{
+	display: inline-block;
+	color: orange;
+	font-size:50px;
+	margin-left: 125px;
+	margin-top: 400px;
+	
 }
